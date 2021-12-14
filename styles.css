@@ -1,0 +1,130 @@
+body {
+  background-color: #6f4e37;
+  box-sizing: border-box;
+  margin: 6px;
+}
+
+.headCoffee {
+  display: flex;
+}
+
+.headCoffee img {
+  width: 30%;
+  height: 340px;
+}
+
+.icon img {
+  height: 340px;
+  width: 100%;
+}
+
+.name {
+  width: 42%;
+  margin-left: 1%;
+}
+
+#headName {
+  font-size: 60px;
+}
+
+#descCoffee {
+  font-size: 26px;
+}
+
+.expandable-box {
+  width: 30%;
+  height: 190px;
+  float: left;
+  margin: 0 3% 20px 0;
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+ h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  color: chartreuse;
+}
+
+.details {
+  margin-left: 10px;
+  margin-top:-26px ;
+}
+
+.details h3 {
+  font-family: cursive;
+}
+
+.details h4 {
+  font-family: monospace;
+}
+
+a{
+    color: gold;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+.slide {
+    float: left;
+    height: auto;
+    width: 720px;
+    background: black;
+    margin-left: 5px;
+}
+ 
+.slide-wrapper {
+    width: calc(728px * 4);
+    animation: slide 17s ease infinite;
+}
+ 
+@keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+
+.getInfo{
+    text-align: center;
+}
+
+h5{
+    font-size: larger;
+    color: cadetblue;
+    font-style: italic;
+    font-family: monospace;
+}
+
+input{
+    padding: 10px;
+    width: 35%;
+}
+
+button{
+    background-color: #cd113b;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+}
